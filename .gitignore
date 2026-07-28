@@ -1,0 +1,30 @@
+.env
+.env.*
+!.env.example
+
+# Secrets
+*.key
+*.pem
+secrets/
+
+# Dependencies
+node_modules/
+vendor/
+
+# Local data and logs
+/data/*
+!/data/.htaccess
+logs/*.log
+logs/log.txt
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
